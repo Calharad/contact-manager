@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etName"
+        android:hint="@string/edittext_name">
+        <requestFocus></requestFocus>
+    </EditText>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPhone"
+        android:hint="@string/edittext_phone"
+        android:inputType="number">
+        <requestFocus></requestFocus>
+    </EditText>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmail"
+        android:hint="@string/edittext_email"
+        android:inputType="textEmailAddress">
+        <requestFocus></requestFocus>
+    </EditText>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llControlButtons">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnSave"
+            android:text="@string/button_save"></Button>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnClearSelected"
+            android:text="@string/button_clear"
+            android:layout_width="fill_parent"></Button>
+    </LinearLayout>
+    <ListView
+        android:layout_width="fill_parent"
+        android:id="@+id/lvContacts"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"></ListView>
+
+
+
+</LinearLayout>

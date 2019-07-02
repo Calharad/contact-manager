@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Instrukcja2_Zadanie2</string>
+    <string name="button_clear">Delete selected</string>
+    <string name="edittext_name">Add name</string>
+    <string name="edittext_phone">Add phone</string>
+    <string name="edittext_email">Add email</string>
+    <string name="button_save">Add Contact</string>
+    <string name="title_activity_view_contact">ViewContact</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+    android:weightSum="1">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/tvContactName"
+		android:layout_marginLeft="20dp" android:text="test" android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvContactEmail"
+        android:layout_marginLeft="20dp" android:text="test" android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/tvContactName"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="test"
+
+        android:id="@+id/tvContactPhone"
+        android:layout_below="@+id/tvContactEmail"
+        android:layout_alignLeft="@+id/tvContactEmail"
+        android:layout_alignStart="@+id/tvContactEmail" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/status"
+        android:layout_marginRight="25dp"
+        android:src="@android:drawable/presence_online"
+        android:layout_alignBottom="@+id/tvContactPhone"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+    <!-- android:layout_alignParentRight="true"-->
+
+
+
+</RelativeLayout>
